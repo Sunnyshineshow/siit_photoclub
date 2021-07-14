@@ -13,6 +13,11 @@ $(document).ready(() =>
             desc: $("#event_description").val()
         }
 
-        document.getElementById("log").innerHTML = data.name + " " + data.date_start + " " + data.datetime_end + " " + data.desc
+        // document.getElementById("log").innerHTML = data.name + " " + data.date_start + " " + data.datetime_end + " " + data.desc
+
+        $.post("https://sunshineshownodered.mybluemix.net/photoclub/newevent/",data,() =>
+        {
+            console.log(data);
+        })
     })
 })
