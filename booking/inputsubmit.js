@@ -17,6 +17,7 @@ $(document).ready(() =>
 
         $.post("https://sunshineshownodered.mybluemix.net/photoclub/newevent/",data,() =>
         {
+            console.log("Posting Worked Properly")
             console.log(data);
         })
     })
