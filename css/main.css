@@ -1,0 +1,20 @@
+html {
+    position: relative;
+    max-width: 100%;
+    min-height: 100%;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+footer {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.main-container{
+    max-width: 640px;
+    margin: 40px;
+}
